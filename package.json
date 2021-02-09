@@ -1,18 +1,30 @@
 {
-  "name": "FEW-Date-Lib",
+  "name": "@alexandershearer/few-date-lib",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandershearer/FEW_Date_Library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/alexandershearer"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "jest": "^26.6.3"
-  }
+  "bugs": {
+    "url": "https://github.com/alexandershearer/FEW_Date_Library/issues"
+  },
+  "homepage": "https://github.com/alexandershearer/FEW_Date_Library#readme"
 }
