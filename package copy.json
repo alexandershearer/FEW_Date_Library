@@ -1,6 +1,6 @@
 {
-  "name": "@alex.shearer/few-date-lib",
-  "version": "1.0.0",
+  "name": "@alexandershearer/few-date-lib",
+  "version": "1.0.10",
   "description": "",
   "main": "index.js",
   "directories": {
@@ -16,6 +16,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexandershearer/FEW_Date_Library.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [],
   "author": "",

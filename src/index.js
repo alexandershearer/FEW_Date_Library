@@ -36,7 +36,6 @@ class D {
     }
 
     formatDate(input) {
-        let formattedDate = ''
         let splitInput = input.split("")
         for (let i = 0; i < splitInput.length; i++) {
             switch (splitInput[i]) {
