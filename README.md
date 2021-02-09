@@ -1,7 +1,7 @@
 # FEW Date Library
 
-![npm](https://img.shields.io/npm/v/few-date-lib)
-![GitHub](https://img.shields.io/github/license/alexandershearer/FEW_Date_Library)
+![npm](https://img.shields.io/npm/v/@alex.shearer/few-date-lib)
+![NPM](https://img.shields.io/npm/l/@alex.shearer/few-date-lib)
 ![GitHub repo size](https://img.shields.io/github/repo-size/alexandershearer/FEW_Date_Library)
 ![GitHub issues](https://img.shields.io/github/issues/alexandershearer/FEW_Date_Library)
 
