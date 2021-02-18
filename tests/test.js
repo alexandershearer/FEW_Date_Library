@@ -1,4 +1,4 @@
-const D = require('../src/index')
+const D = require('../umd/your-module')
 
 const now = new Date()
 const d = new D()
@@ -9,11 +9,11 @@ test('D.year', () => {
 })
 
 test('D.yr', () => {
-    expect(d.yr).toBe('21')
+    expect(d.yr).toBe("21")
 })
 
 test('D.month', () => {
-    expect(d.month).toBe('February')
+    expect(d.month).toBe("February")
 })
 
 test('D.m', () => {
@@ -21,11 +21,11 @@ test('D.m', () => {
 })
 
 test('D.day', () => {
-    expect(d.day).toBe('Monday')
+    expect(d.day).toBe('Thursday')
 })
 
 test('D.dy', () => {
-    expect(d.dy).toBe('Mon')
+    expect(d.dy).toBe('Thu')
 })
 
 test('D.date', () => {
@@ -45,7 +45,7 @@ test('D.secs', () => {
 })
 
 test('D.formatDate', () => {
-    expect(d.formatDate("y/m/d")).toBe("21/2/8")
+    expect(d.formatDate("y/m/d")).toBe("21/Feb/18")
 })
 
 
